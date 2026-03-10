@@ -2,8 +2,8 @@ import streamlit as st
 
 st.title("DominicWhisenant_EchoBot") 
 
-with st.chat_message("assistant"):
-  st.image("TheSavedImage.png", caption="CIT 144 – Demographics Data Visualization")
+with st.chat_message("assistant"): 
+  st.image("TheSavedImage.png", caption="CIT 144 - Demographics Data Visualization")
 
 #Initialize chat history 
 if "messages" not in st.session_state: 
